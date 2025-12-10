@@ -1,44 +1,38 @@
-# E2E Test Projekt kooli veebilehele evgenytailov24.thkit.ee
+# E2E Test Project for the school website evgenytailov24.thkit.ee
 
-## ⚙️ Nõuded
+## ⚙️ Requirements
 
-- **Operatsioonsüsteemid:** Windows 10/11, macOS, või Linux  
-- **Node.js:** v18 või üle
-- **npm:** v9 või üle
-- **Brauserid:** Chromium, Firefox, WebKit (installib automaatselt Playwrighti kaudu)
+- **Operating systems:** Windows 10/11, macOS, or Linux  
+- **Node.js:** v18 or higher  
+- **npm:** v9 or higher  
+- **Browsers:** Chromium, Firefox, WebKit (installed automatically via Playwright)
 
 ---
 
-## 🚀 Installimine ja käivitamine
+## 🚀 Installation and Running
 
-1. Kloonige repo:
+1. Clone the repository:
    ```bash
    git clone https://github.com/icy-s/e2e-tests.git
    cd e2e-tests
+   
+2. Install dependencies:
+npm install
 
-2. Installi dependencies
+3. Install Playwright browsers:
+npx playwright install
 
-   npm install
+4. Run all tests:
+npx playwright test
 
-3. Installi Playwright brauserid
+5. Run tests in UI mode:
+npx playwright test --ui
 
-   npx playwright install
+6. Run only E2E tests:
+npx playwright test tests/e2e
 
-4. Käivita testid
-
-   npx playwright test
-
-5. Brauseri käivitamiseks (UI mode)
-
-   npx playwright test --ui
-
-6. Ainult E2E testid
-
-   npx playwright test tests/e2e
-
-## 🧪 Aruanned
-
-Testide järel loodakse HTML-aruanne, selle vaatamiseks kirjuta:
+## 🧪 Reports
+An HTML report is generated after the tests complete. To open it, run:
 
 npx playwright show-report
 

@@ -42,11 +42,12 @@ npx playwright test --ui
 npx playwright test tests/e2e
 ```
 
+---
+
+
 ## 🧪 Reports
 An HTML report is generated after the tests complete. To open it, run:
 
-```npx playwright show-report```
-
-
----
-
+```
+npx playwright show-report
+```

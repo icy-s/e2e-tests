@@ -19,7 +19,7 @@ cd e2e-tests
    
 2. Install dependencies:
 ```
-npm install
+npm install @playwright/test
 ```
 
 3. Install Playwright browsers:
@@ -51,3 +51,4 @@ An HTML report is generated after the tests complete. To open it, run:
 ```
 npx playwright show-report
 ```
+

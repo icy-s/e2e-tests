@@ -1,3 +1,5 @@
+<img src="readme.png" alt="Project Banner">
+
 # E2E Test Project for the school website evgenytailov24.thkit.ee
 
 ## ⚙️ Requirements
@@ -51,4 +53,5 @@ An HTML report is generated after the tests complete. To open it, run:
 ```
 npx playwright show-report
 ```
+
 
